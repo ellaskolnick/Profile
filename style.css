@@ -102,6 +102,14 @@ a:hover {
   transform: scale(1.7);
 }
 
+.spin {
+  transition: transform .7s ease-in-out;
+}
+
+.spin:hover {
+  transform: rotate(360deg);
+}
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
