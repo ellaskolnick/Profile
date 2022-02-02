@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(249, 235, 239);
+  font-family: 'Catamaran', sans-serif;
+  color: #1B4332;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #071D15;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 23px;
+  line-height: 1.6;
+  margin: 5px;
+}
+
+h2, h3 {
+  color: #071D15;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0px;
+}
+
+a {
+  color: #124652;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 93, 143);
+  text-decoration: underline;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgb(254, 247, 249);
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 25px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.text-bigger {
+  font-size: 25px;
+}
+
+.btn-pink {
+  background-color: rgb(247, 214, 224);
+  width: 55px;
+  padding: 3px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.btn-pink:hover {
+  background-color: rgb(250, 188, 207);
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.7);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+::selection {
+  color: #7b8c86;
+  background: rgb(255, 93, 143);
+}
