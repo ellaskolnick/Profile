@@ -1,4 +1,9 @@
 body {
+  background-image: url("images/b6f5c1f8989c446ebef2d24f57ca6308.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-color: rgb(249, 235, 239);
   font-family: 'Catamaran', sans-serif;
   color: #1B4332;
@@ -38,7 +43,6 @@ a:hover {
 }
 
 .card {
-  background-image: url("images/pink-heart-nawpic-4.jpg");
   background: rgb(254, 247, 249);
   padding: 30px;
   border-radius: 4px;
