@@ -38,6 +38,7 @@ a:hover {
 }
 
 .card {
+  background-image: url("images/pink-heart-nawpic-4.jpg");
   background: rgb(254, 247, 249);
   padding: 30px;
   border-radius: 4px;
