@@ -54,6 +54,15 @@ a:hover {
   border-radius: 50%;
 }
 
+.rectangular-img-circle {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 .text-center {
   text-align: center;
 }
